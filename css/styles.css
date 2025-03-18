@@ -516,6 +516,11 @@ h3 {
   background-color: var(--primary-color);
 }
 
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: var(--pressed-state);
+}
+
 .subscribe-icon {
   margin-left: 16px;
   fill: var(--white-bg-color);
@@ -774,6 +779,11 @@ input[type='checkbox']:checked + .contact-label > .contact-checkbox {
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-submit-btn:hover,
+.contact-submit-btn:focus {
+  background-color: var(--pressed-state);
 }
 
 .spacer {
